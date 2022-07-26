@@ -1,0 +1,82 @@
+/*Import Fuentes*/
+
+/* Kaushan */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+/* Estilos Fondo Landing*/
+.landing{
+    height: 100vh;
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Tipografía para el Logo*/
+.landing h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* Custom Button */
+
+.btn{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.btn:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+
+/*Navbar*/
+.navbar{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+}
+
+/*Primer scroll interior*/
+.primerscroll {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(/img/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .primerscroll h1, .primerscroll .h1 {
+    font-size: 2.25rem;
+
+  }
+  @media (min-width: 992px) {
+    .primerscroll {
+      min-height: 75vh;
+      padding-top: 4.5rem;
+      padding-bottom: 0;
+    }
+    .primerscroll p {
+      font-size: 1.15rem;
+    }
+    .primerscroll h1, .primerscroll .h1 {
+      font-size: 3rem;
+    }
+
+  }
+  @media (min-width: 1200px) {
+    .primerscroll h1, .primerscroll .h1 {
+      font-size: 3.5rem;
+    }
+  }
+
+
+
+
+  /* */
+  .prueba{
+    height: 100vh;
+    background-color: black;
+  }
